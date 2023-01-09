@@ -25,6 +25,7 @@ cout<<"6. 5 Mar 2020   Peshawar Zalmi v Quetta Gladiators, Pindi Cricket Stadium
 cout<<"7. 7 Mar 2020   Peshawar Zalmi v Islamabad United, Pindi Cricket Stadium (2pm-5.15pm)"<<endl;
 cout<<"8. 8 Mar 2020   Multan Sultans v Islamabad United, Pindi Cricket Stadium (2pm-5.15pm)"<<endl;
 cin>>a;
+system("cls");
 
 if(a==1 ){
 	cout<<"1. Imran Khan enclosure: Max 1000 seats."<<endl;
@@ -37,6 +38,7 @@ if(a==1 ){
     cout<<"8. Yasir Arafat enclosure: Max 2500 seats."<<endl;
     cout<<"------------------------------------------------"<<endl;
     cin>>b;
+    system("cls");
     if(b==1 || b==2 || b==3 || b==4)
 {   srand(time(0));
     random = rand() % 1000;
@@ -173,7 +175,7 @@ if(a==1 ){
 
 
 
-	if(a==2 ){
+if(a==2 ){
 	cout<<"1. Imran Khan enclosure: Max 1000 seats."<<endl;
     cout<<"2. Javed Miandad enclosure: Max 1000 seats."<<endl;
     cout<<"3. Javed Akhter enclosure: Max 1000 seats."<<endl;
@@ -184,6 +186,8 @@ if(a==1 ){
     cout<<"8. Yasir Arafat enclosure: Max 2500 seats."<<endl;
     cout<<"------------------------------------------------"<<endl;
     cin>>b;
+    system("cls");
+
     if(b==1 || b==2 || b==3 || b==4)
 {   srand(time(0));
     random = rand() % 1000;
@@ -317,7 +321,7 @@ if(a==1 ){
 
 
 
-	if(a==3 ){
+if(a==3 ){
 	cout<<"1. Imran Khan enclosure: Max 1000 seats."<<endl;
     cout<<"2. Javed Miandad enclosure: Max 1000 seats."<<endl;
     cout<<"3. Javed Akhter enclosure: Max 1000 seats."<<endl;
@@ -328,6 +332,8 @@ if(a==1 ){
     cout<<"8. Yasir Arafat enclosure: Max 2500 seats."<<endl;
     cout<<"------------------------------------------------"<<endl;
     cin>>b;
+    system("cls");
+
     if(b==1 || b==2 || b==3 || b==4)
 {   srand(time(0));
     random = rand() % 1000;
@@ -460,7 +466,7 @@ if(a==1 ){
 
 
 
-	if(a==4 ){
+if(a==4 ){
 	cout<<"1. Imran Khan enclosure: Max 1000 seats."<<endl;
     cout<<"2. Javed Miandad enclosure: Max 1000 seats."<<endl;
     cout<<"3. Javed Akhter enclosure: Max 1000 seats."<<endl;
@@ -471,6 +477,8 @@ if(a==1 ){
     cout<<"8. Yasir Arafat enclosure: Max 2500 seats."<<endl;
     cout<<"------------------------------------------------"<<endl;
     cin>>b;
+    system("cls");
+
     if(b==1 || b==2 || b==3 || b==4)
 {   srand(time(0));
     random = rand() % 1000;
@@ -603,7 +611,7 @@ if(a==1 ){
 
 
 
-	if(a==5 ){
+if(a==5 ){
 	cout<<"1. Imran Khan enclosure: Max 1000 seats."<<endl;
     cout<<"2. Javed Miandad enclosure: Max 1000 seats."<<endl;
     cout<<"3. Javed Akhter enclosure: Max 1000 seats."<<endl;
@@ -614,6 +622,8 @@ if(a==1 ){
     cout<<"8. Yasir Arafat enclosure: Max 2500 seats."<<endl;
     cout<<"------------------------------------------------"<<endl;
     cin>>b;
+    system("cls");
+
     if(b==1 || b==2 || b==3 || b==4)
 {   srand(time(0));
     random = rand() % 1000;
@@ -747,7 +757,7 @@ if(a==1 ){
 
 
 
-	if(a==6 ){
+if(a==6 ){
 	cout<<"1. Imran Khan enclosure: Max 1000 seats."<<endl;
     cout<<"2. Javed Miandad enclosure: Max 1000 seats."<<endl;
     cout<<"3. Javed Akhter enclosure: Max 1000 seats."<<endl;
@@ -758,6 +768,7 @@ if(a==1 ){
     cout<<"8. Yasir Arafat enclosure: Max 2500 seats."<<endl;
     cout<<"------------------------------------------------"<<endl;
     cin>>b;
+    system("cls");
     if(b==1 || b==2 || b==3 || b==4)
 {   srand(time(0));
     random = rand() % 1000;
@@ -891,7 +902,7 @@ if(a==1 ){
 
 
 
-	if(a==7 ){
+if(a==7 ){
 	cout<<"1. Imran Khan enclosure: Max 1000 seats."<<endl;
     cout<<"2. Javed Miandad enclosure: Max 1000 seats."<<endl;
     cout<<"3. Javed Akhter enclosure: Max 1000 seats."<<endl;
@@ -902,6 +913,8 @@ if(a==1 ){
     cout<<"8. Yasir Arafat enclosure: Max 2500 seats."<<endl;
     cout<<"------------------------------------------------"<<endl;
     cin>>b;
+    system("cls");
+
     if(b==1 || b==2 || b==3 || b==4)
 {   srand(time(0));
     random = rand() % 1000;
@@ -1034,7 +1047,7 @@ if(a==1 ){
 
 
 
-	if(a==8 ){
+if(a==8 ){
 	cout<<"1. Imran Khan enclosure: Max 1000 seats."<<endl;
     cout<<"2. Javed Miandad enclosure: Max 1000 seats."<<endl;
     cout<<"3. Javed Akhter enclosure: Max 1000 seats."<<endl;
@@ -1045,6 +1058,8 @@ if(a==1 ){
     cout<<"8. Yasir Arafat enclosure: Max 2500 seats."<<endl;
     cout<<"------------------------------------------------"<<endl;
     cin>>b;
+    system("cls");
+
     if(b==1 || b==2 || b==3 || b==4)
 {   srand(time(0));
     random = rand() % 1000;
@@ -1173,8 +1188,12 @@ if(a==1 ){
 
 	}
 	}
-
-
-
-      cout<<"The final price for your match seats are : "<<(priceA+priceC)<<endl;
+HANDLE h=GetStdHandle(STD_OUTPUT_HANDLE);
+SetConsoleTextAttribute(h,13);
+        cout<<"/////////////////////////////////////////////////////////////////////////////"<<endl<<endl;
+        cout<<"            The final price for your match seats are : "<<(priceA+priceC)<<" Rs"<<endl<<endl;
+        cout<<"//////////////////////////////////////////////////////////////////////////"<<endl;
+        cout<<"////////////////////////////////THANK YOU/////////////////////////////////"<<endl;
+        cout<<"//////////////////////////////////////////////////////////////////////////"<<endl;
+        SetConsoleTextAttribute(h,15);
 }
